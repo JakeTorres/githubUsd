@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.platform       = :ios, "10.0"
   spec.source         = { :git => "https://github.com/JakeTorres/githubUsd.git", :tag => spec.version }
   spec.resources      = "githubInit/**/*.{jpeg,png,jpg,storyboard,xib,xcassets}"
-  spec.source_files   = "githubInit.{swift}"
+  spec.source_files   = "githubInit/*.swift"
 
   spec.source_files   = "Classes", "Classes/**/*.{swift}"
   spec.exclude_files  = "Classes/Exclude"
