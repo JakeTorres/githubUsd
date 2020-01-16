@@ -20,6 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.license        = { :type => "MIT", :file => "LICENSE" }
 
+  spec.framework      = "UIKit"
   spec.homepage       = "https://github.com/JakeTorres/githubUsd"
  
   spec.author         = { "chenzhihai" => "czhstudy@yeah.net" }
